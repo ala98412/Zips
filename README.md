@@ -19,6 +19,7 @@ Contact author: ala98412@gmail.com
 ```
 
 # Extract file
+Don't need to asign format  
 ```
 python3 -m Zips -uzip filename
 ```
@@ -27,9 +28,4 @@ python3 -m Zips -uzip filename
 ```
 python3 -m Zips -zip [formats] file/dirname
 ```
-targz : .tar.gz  
-tar : .tar  
-gz : .gz  
-zip : .zip  
-bz2 : .bz2  
-xz : .xz  
+formats: targz, tar, gz, zip, bz2, xz  
