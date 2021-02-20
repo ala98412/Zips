@@ -18,7 +18,18 @@ optional arguments:
 Contact author: ala98412@gmail.com
 ```
 
-#Execute
+# Extract file
 ```
 python3 -m Zips -uzip filename
 ```
+
+# Compress file or directory
+```
+python3 -m Zips -zip [formats] file/dirname
+```
+targz : .tar.gz  
+tar : .tar  
+gz : .gz  
+zip : .zip  
+bz2 : .bz2  
+xz : .xz  
